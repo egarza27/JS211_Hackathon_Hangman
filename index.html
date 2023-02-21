@@ -4,15 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>hangman</title>
   </head>
   <body>
-    <h1>HANGMAN</h1>
+    <div id="headings">
+      <h1>HANGMAN</h1>
+      <br />
+      <h2>Your category is pizza toppings:</h2>
+      <br />
+      <img src="coolPizzaGuy.png" alt="cool pizza guy" />
+      <h3 id="result"></h3>
+    </div>
+
     <form id="hangman">
-      <input id="userInput" type="text" onkeyup="getInput(this.value)" />
-      <button type="button" onclick="filterLetter()">Go</button>
+      <input id="userInput" type="text" />
+      <button id="goButton" type="button">Go</button>
     </form>
-    <p id="result"></p>
     <script src="main.js"></script>
   </body>
 </html>

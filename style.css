@@ -1,0 +1,19 @@
+body {
+  /* margin: 15%; */
+  background-color: rgba(24, 137, 58, 0.617);
+}
+
+#headings {
+  color: rgb(255, 236, 236);
+  align-items: center;
+  margin: 10% 25%;
+}
+
+#hangman {
+  margin: 10% 25%;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
